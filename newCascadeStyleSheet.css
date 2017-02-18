@@ -1,0 +1,29 @@
+body{
+    font-family: "Lucida Console", Courier, monospace;
+}
+.esconder{
+    display:none;
+}
+.petu{
+    font-family: "Lucida Console", Courier, monospace;
+    height: 800px;
+    background-color: #cccccc;
+}
+.interior{
+    text-align: center;
+    font-size: 50px;
+}
+#input{
+    height: 100%;
+    text-align: center;
+}
+#input>input{
+   
+}
+#numero{
+    display: block;
+    margin-left: 25%;
+}
+.row{
+    padding: 14px;
+}

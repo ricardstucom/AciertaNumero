@@ -15,14 +15,14 @@ if(isset($_GET['inicio'])){     //se ha indicado iniciar un nuevo juego
     $numeroOculto=$_SESSION['numeroOculto'];
     
     if($numeroUsuario > $numeroOculto ){
-        $xml .= "<encontrado>no</encontrado>" . "\n";
+        $xml .= "<encontrado>No</encontrado>" . "\n";
         $xml .= "<mensaje>Has introducido un valor demasiado alto"."s</mensaje>" . "\n";
     }else {
         if($numeroUsuario < $numeroOculto ){
-            $xml .= "<encontrado>no</encontrado>" . "\n";
+            $xml .= "<encontrado>No</encontrado>" . "\n";
             $xml .= "<mensaje>Has introducido un valor demasiado bajo"."</mensaje>" . "\n";
         }else{
-              $xml .= "<encontrado>si</encontrado>" . "\n";
+              $xml .= "<encontrado>Si</encontrado>" . "\n";
             $xml .= "<mensaje>Exacto!</mensaje>" . "\n";
         } 
         
